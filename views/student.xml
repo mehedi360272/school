@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_student_tree">
+            <field name="name">Student list</field>
+            <field name="model">school.student</field>
+            <field name="arch" type="xml">
+                <tree string="Student List">
+                    <field name="name"/>
+                    <field name="email"/>
+                    <field name="phone"/>
+                    <field name="gender"/>
+                    <field name="birth_date"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>
